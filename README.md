@@ -2,13 +2,34 @@
 
 日本語話者を対象とした、ポルトガル語12語の行動予備調査です。HTML・JavaScriptで動作します。
 
-| 課題 | URL | 本課題の試行数 |
-| --- | --- | --- |
-| 学習3AFC | [learning.html](https://ryuya-dot-com.github.io/CrossSituationalStatisticalLearning_PilotStudy/learning.html) | 12語×10回＝120 |
-| Picture Naming | [naming.html](https://ryuya-dot-com.github.io/CrossSituationalStatisticalLearning_PilotStudy/naming.html) | 12 |
-| Picture Matching | [matching.html](https://ryuya-dot-com.github.io/CrossSituationalStatisticalLearning_PilotStudy/matching.html) | 12 |
+## 実験を開始する
 
-練習を別に含みます。各URLは独立して起動でき、終了画面の「次の課題へ」では学習 → Naming → Matchingの順に、参加者番号・リスト・study_idを引き継ぎます。
+1. **[学習3AFCを開く](https://ryuya-dot-com.github.io/CrossSituationalStatisticalLearning_PilotStudy/learning.html)**
+2. **[Picture Namingを開く](https://ryuya-dot-com.github.io/CrossSituationalStatisticalLearning_PilotStudy/naming.html)**
+3. **[Picture Matchingを開く](https://ryuya-dot-com.github.io/CrossSituationalStatisticalLearning_PilotStudy/matching.html)**
+
+各URLは独立して起動できます。通常は **学習3AFC → Naming → Matching** の順に実施してください。終了画面の「次の課題へ」では、参加者番号・リスト・study_idを引き継ぎます。
+
+## 推定所要時間
+
+**通常モードは全体で約13〜20分、参加者への案内は「20分程度」が暫定的な目安です。** 現在のコードの待機時間と、下記の回答・休憩時間の仮定から見積もっています。参加者による所要時間はまだ実測していません。
+
+| 課題 | 本課題＋練習 | 所要時間の目安 |
+| --- | --- | --- |
+| 学習3AFC | 120＋6＝126試行 | 約10〜15分 |
+| Picture Naming | 12＋1＝13試行 | 約2〜3分 |
+| Picture Matching | 12＋3＝15試行 | 約1〜2分 |
+| 合計 | 154試行 | 約13〜20分 |
+
+この目安には、各画面の説明、刺激の事前読込、ヘッドホン・マイクの確認、練習、短い休憩、結果保存の操作を含めています。別途行う研究説明・同意取得や、機器トラブルへの対応時間は含めていません。
+
+算定の前提は次のとおりです。
+
+- **学習**：1試行の固定部分は約3.205秒（画像の先行提示0.8秒＋注視点0.3秒＋音声の再生予約0.08秒＋音声冒頭の無音0.025秒＋選択待機1.5秒＋試行間隔0.5秒）。126試行で約6.7分です。選択可能になってからクリックまでを0.5〜1.5秒と仮定すると、試行部分は約7.8〜9.9分になります。さらに、9回のブロック間休憩を各10〜20秒、説明・機器確認・保存などを計1〜2分と見込んでいます。
+- **Naming**：画像提示から「回答終了」または「わからない」を押すまでを2〜6秒と仮定し、注視点と試行間隔を加えると、13試行の試行部分は約0.7〜1.5分です。説明・マイク確認・録音保存などに約1〜1.5分を見込んでいます。この2〜6秒は発話開始RTではありません。全試行で10秒の回答上限まで待つ場合、試行部分だけで約2分23秒になり、準備・保存を含めると3〜4分程度になり得ます。
+- **Matching**：推定発話開始からクリックまでを1〜2.5秒と仮定すると、固定待機を含む15試行の試行部分は約0.7〜1.1分です。説明・音声確認・保存などに約0.5〜1分を見込んでいます。音声を聞く時間はこの回答時間と重なるため、別途二重に加算していません。
+
+画面描画・録音処理・保存・機器の遅延によっても変動します。学習とMatchingの回答、および休憩は時間制限を設けていないため、**上記は所要時間の上限ではありません**。実参加者の予備調査後に、実測に基づいて更新します。
 
 ## 実施
 
