@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>学習</title><link rel="stylesheet" href="web_pilot/style.css"></head>
+<body data-phase="learning"><header><span>学習</span><span id="status"></span></header>
+<main id="app"><section class="panel"><h1>学習</h1><p>音声を聞いて、画像との対応を覚えてください。PCとヘッドホンを使用してください。</p>
+<form id="settings"><label>参加者番号<input name="participant" required pattern="[A-Za-z0-9_-]{1,32}" maxlength="32" autocomplete="off"></label>
+<label>ポルトガル語を学んだり使ったりしたことはありますか？<select name="portuguese" required><option value="">選択してください</option><option value="none">いいえ</option><option value="some">はい</option></select></label>
+<button type="submit" disabled>始める</button></form></section></main>
+<footer><button id="stop" class="quiet" hidden>中止</button><span id="save-status" class="sr-only" aria-live="polite"></span><a class="credit-link" href="credits.html">出典</a></footer>
+<noscript>JavaScriptを有効にしてください。</noscript><script type="module" src="web_pilot/app.mjs"></script></body></html>

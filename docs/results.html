@@ -1,0 +1,5 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>保存した結果</title><link rel="stylesheet" href="web_pilot/style.css"></head>
+<body data-phase="results"><header><span>保存した結果</span><span id="status"></span></header>
+<main id="app"><section class="panel"><h1>保存した結果</h1><p>課題を行ったブラウザで開いてください。</p><form id="lookup"><label>参加者番号<input name="participant" required pattern="[A-Za-z0-9_-]{1,32}" maxlength="32" autocomplete="off"></label><button type="submit">表示する</button></form><div id="saved"></div></section></main>
+<footer><button id="stop" hidden>中止</button><span id="save-status" class="sr-only"></span><a href="index.html">課題へ戻る</a></footer><script type="module" src="web_pilot/app.mjs"></script></body></html>

@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>名前を答える</title><link rel="stylesheet" href="web_pilot/style.css"></head>
+<body data-phase="naming"><header><span>名前を答える</span><span id="status"></span></header>
+<main id="app"><section class="panel"><h1>名前を答える</h1><p>画像を見て、学習した外国語の名前を声に出してください。声を録音します。PCとマイクを使用してください。</p>
+<form id="settings"><label>参加者番号<input name="participant" required pattern="[A-Za-z0-9_-]{1,32}" maxlength="32" autocomplete="off"></label><button type="submit" disabled>始める</button></form></section></main>
+<footer><button id="stop" class="quiet" hidden>中止</button><span id="save-status" class="sr-only" aria-live="polite"></span><a class="credit-link" href="credits.html">出典</a></footer>
+<noscript>JavaScriptを有効にしてください。</noscript><script type="module" src="web_pilot/app.mjs"></script></body></html>

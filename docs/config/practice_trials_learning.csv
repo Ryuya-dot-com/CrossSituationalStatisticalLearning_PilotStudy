@@ -1,0 +1,7 @@
+phase,block,trial_in_block,trial_id,target_id,target_word,d1_id,d1_word,d2_id,d2_word,pos1_word,pos2_word,pos3_word,target_pos,min_acoustic_dist,mean_acoustic_dist
+practice,0,1,901,101,apple,102,book,103,car,apple,book,car,1,,
+practice,0,2,902,103,car,101,apple,102,book,apple,car,book,2,,
+practice,0,3,903,102,book,101,apple,103,car,book,apple,car,1,,
+practice,0,4,904,103,car,102,book,101,apple,book,car,apple,2,,
+practice,0,5,905,102,book,103,car,101,apple,car,apple,book,3,,
+practice,0,6,906,101,apple,103,car,102,book,car,book,apple,3,,

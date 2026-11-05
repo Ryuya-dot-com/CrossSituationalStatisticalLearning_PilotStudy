@@ -1,0 +1,13 @@
+﻿item_id,word,ipa_ep,meaning_ja,category,gender,c1,v1,f1_v1_hz,f2_v1_hz,c1_place,c1_manner,c1_voiced
+1,pato,ˈpa.tu,アヒル,animal,M,p,a,954,1623,1,1,0
+2,lobo,ˈlo.bu,オオカミ,animal,M,l,o,388,764,2,4,1
+3,cabra,ˈka.bɾɐ,ヤギ,animal,F,k,a,925,1605,4,1,0
+4,foca,ˈfɔ.kɐ,アザラシ,animal,F,f,O,618,1111,1,2,0
+5,sino,ˈsi.nu,鐘（ベル）,object,M,s,i,277,2755,2,2,0
+6,dado,ˈda.du,サイコロ,object,M,d,a,939,1690,2,1,1
+7,vela,ˈvɛ.lɐ,ロウソク,object,F,v,E,494,2218,1,2,1
+8,roda,ˈʁɔ.dɐ,車輪,object,F,R,O,600,1123,4,2,1
+9,ninho,ˈni.ɲu,巣,nature,M,n,i,300,2952,2,3,1
+10,milho,ˈmi.ʎu,トウモロコシ,nature,M,m,i,307,2853,1,3,1
+11,boca,ˈbo.kɐ,口,nature,F,b,o,437,841,1,1,1
+12,gota,ˈɡo.tɐ,しずく,nature,F,g,o,408,961,4,1,1
